@@ -4,3 +4,9 @@
 
 [[plugins]]
   package = "netlify-plugin-cypress"
+
+[[redirects]]
+  from = "https://test.iitiimjobs.com/*"
+  to = "https://bookbarry.youcanbook.me/:splat"
+  status = 301
+  force = true
